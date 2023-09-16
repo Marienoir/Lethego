@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lethego</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Satoshi"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    /> -->
+    <link rel="stylesheet" href="./public/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!-- Navigation Bar -->
     <nav class="bg-black p-10">
       <div class="container mx-auto">
         <div class="flex justify-between items-center">
@@ -32,35 +31,40 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
     <header
-      class="bg-black font-satoshi text-white h-screen pt-48 justify-center items-center"
+      class="bg-black font-poppins text-white h-screen pt-10 2xl:pt-48 justify-center items-center"
     >
       <div class="container mx-auto text-center">
-        <h1 class="text-8xl font-normal mb-4">Digital Literacy made easy</h1>
-        <p class="text-lg text-gray-500 mb-8 w-1/3 mx-auto">
+        <h1 class="text-3xl lg:text-6xl font-normal mb-4 font-poppins">
+          Digital Literacy made easy
+        </h1>
+        <p
+          class="text-sm lg:text-lg text-gray-500 mb-8 w-full sm:w-1/3 mx-auto"
+        >
           Bite-sized digital literacy lessons for on-the-go learning, tailored
           <span class="text-white">for Nigerians!</span>
         </p>
         <div
-          class="text-base text-gray-500 max-w-3xl mx-auto border-dashed border-2 border-gray-400 p-5 border-opacity-50"
+          class="mx-5 sm:m-0 text-sm sm:text-md text-gray-500 max-w-3xl sm:mx-auto border-dashed border-2 border-gray-400 sm:p-5 border-opacity-50"
         >
-          <div class="grid grid-cols-3 gap-1">
+          <div
+            class="grid text-sm sm:text-lg grid-cols-2 sm:grid-cols-3 sm:gap-1"
+          >
             <div
-              class="border-dashed border-r-2 border-gray-400 border-opacity-50 p-4"
+              class="text-left border-dashed border-r-2 border-gray-400 border-opacity-50 p-1 sm:p-4"
             >
               Full name
             </div>
             <div
-              class="border-dashed border-r-2 border-gray-400 border-opacity-50 p-4"
+              class="text-left border-dashed border-r-2 border-gray-400 border-opacity-50 p-1 sm:p-4"
             >
               Your email address
             </div>
-            <div class="p-4">Phone number (optional)</div>
+            <div class="text-left p-1 sm:p-4">Phone number (optional)</div>
           </div>
           <a
             href="#"
-            class="bg-blue-400 text-white mt-4 block hover:bg-blue-500 py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out"
+            class="bg-blue-400 text-white mt-4 block hover:bg-blue-500 py-2 px-6 rounded-xl text-sm sm:text-lg font-semibold transition duration-300 ease-in-out"
             >Join Waitlist</a
           >
         </div>
@@ -70,9 +74,11 @@
     <section class="py-16">
       <div class="container mx-auto text-center">
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
-          <div class="p-4 text-left">
-            <h3 class="text-5xl font-semibold mb-2">About Lothego</h3>
-            <p class="text-md leading-9">
+          <div class="p-4 md:text-left">
+            <h3 class="text-3xl sm:text-5xl font-semibold mb-2">
+              About Lothego
+            </h3>
+            <p class="text-sm sm:text-md leading-7 sm:leading-9">
               Lothego is an innovative EdTech startup in Nigeria that harnesses
               research-informed, context-relevant, bite-size engaging content to
               foster digital literacy through its dedicated mobile app, packed
@@ -82,23 +88,23 @@
               bridging the digital divide.
             </p>
 
-            <p class="mt-5 leading-9">
+            <p class="mt-5 text-sm sm:text-md leading-7 sm:leading-9">
               Through our unique "plan-do-reflect" model, learners can go beyond
               understanding digital concepts and actively practice and
               internalise them, paving the way for genuine digital empowerment.
             </p>
           </div>
 
-          <div class="p-4">
+          <div class="sm:p-4">
             <img src="./assets/images/about.svg" alt="about-lethego-image" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="text-gray-700 py-16 w-1/2 mx-auto">
+    <section class="text-gray-700 py-16 w-full sm:w-1/2 mx-auto">
       <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-5">
+        <h2 class="text-xl sm:text-3xl font-bold mb-5">
           Your Digital Literacy Hub: Bite-sized, Engaging, Affordable and
           Contextually Rich.
         </h2>
@@ -108,8 +114,10 @@
 
     <section class="text-white py-16">
       <div class="container mx-auto text-center">
-        <div class="grid grid-cols-2 grid-rows-2 gap-4">
-          <div class="bg-black py-10 px-20 pb-0">
+        <div
+          class="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 gap-4 text-sm sm:text-xl"
+        >
+          <div class="bg-black py-10 px-5 sm:px-20 pb-0">
             <p>
               Pocket-Friendly Learning: Optimised for every device from high-end
               to budget.
@@ -121,7 +129,7 @@
               />
             </div>
           </div>
-          <div class="bg-black pb-10 px-20">
+          <div class="bg-black pb-10 px-5 sm:px-20">
             <div class="relative top-0 mb-5">
               <img
                 src="./assets/images/mastery-screen.png"
@@ -133,7 +141,7 @@
             </p>
           </div>
 
-          <div class="bg-black pb-10 px-20">
+          <div class="bg-black pb-10 px-5 sm:px-20">
             <div class="relative top-0 mb-5">
               <img
                 src="./assets/images/course-screen.png"
@@ -142,12 +150,12 @@
             </div>
             <p>Bite-size Mastery: Direct, focused lessons for swift learning</p>
           </div>
-          <div class="bg-black py-10 px-20 pb-0">
+          <div class="bg-black py-10 px-5 sm:px-20 pb-0">
             <p>
               Relevance meets Rigour: Research-informed Tailored content for
               impactful learning outcomes.
             </p>
-            <div class="relative top-16">
+            <div class="sm:relative md:relative pt-5 top-16">
               <img
                 src="./assets/images/completed-screen.png"
                 alt="optimised-image"
@@ -166,8 +174,8 @@
             alt="about-lethego-image"
           />
 
-          <div class="bg-black ">
-            <p class="text-md p-20 text-left leading-9">
+          <div class="bg-black">
+            <p class="text-sm sm:text-md p-5 sm:p-20 text-left leading-9">
               Lothego is currently exclusive to select organisations. Register
               your interest now to be among the first to experience the future
               of digital literacy learning when we expand access
@@ -175,7 +183,9 @@
             <div
               class="text-base text-gray-500 max-w-xl mx-auto border-dashed border-2 border-gray-400 p-5 border-opacity-50"
             >
-              <div class="grid grid-cols-3 gap-1 px-5">
+              <div
+                class="grid text-sm sm:text-lg grid-cols-2 sm:grid-cols-3 gap-1"
+              >
                 <div
                   class="border-dashed border-r-2 border-gray-400 border-opacity-50 p-4"
                 >
@@ -196,12 +206,14 @@
             </div>
           </div>
         </div>
-        <p class="text-black py-5"> 2023 Lothego 2023</p>
-        <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 justify-items-center w-1/3 mx-auto">
-            <img src="./assets/images/facebook.svg">
-            <img src="./assets/images/instagram.svg">
-            <img src="./assets/images/youtube.svg">
-            <img src="./assets/images/twitter.svg">
+        <p class="text-sm sm:text-xl text-black py-5">2023 Lothego 2023</p>
+        <div
+          class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 justify-items-center w-full sm:w-1/3 mx-auto"
+        >
+          <img src="./assets/images/facebook.svg" />
+          <img src="./assets/images/instagram.svg" />
+          <img src="./assets/images/youtube.svg" />
+          <img src="./assets/images/twitter.svg" />
         </div>
       </div>
     </footer>

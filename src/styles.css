@@ -1,0 +1,18 @@
+/* styles.css */
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+@font-face {
+  font-family: "Poppins";
+  src: url('/assets/fonts/Poppins-Black.ttf')  format("opentype")
+}
+body {
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+}
