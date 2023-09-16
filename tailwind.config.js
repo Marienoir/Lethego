@@ -10,20 +10,22 @@ module.exports = {
       title: `2.6rem;`,
       paragraph: `1.2rem;`,
     },
+
     extend: {
-      backgroundColor: {
-        black: "#101010",
-      },
-      // colors: {
-      //   custom: "#8D8BA1",
+      // backgroundColor: {
+      //   black: "#00ADEF",
+      //   // blue: "#00ADEF",
       // },
+      colors: {
+        white: "#ffffff",
+        secondary: "#8D8BA1",
+        "custom-dark": "#101010",
+        "custom-blue": "#00adef",
+      },
     },
-    // fontFamily: {
-    //   satoshi: ["Satoshi", "sans"],
-    // },
-    // fontFamily: {
-    //   poppins: ["Poppins"],
-    // },
+    fontFamily: {
+      satoshi: ["Satoshi"],
+    },
   },
   plugins: [],
 };
