@@ -16,9 +16,13 @@
         <div class="container mx-auto">
           <div class="flex justify-between items-center">
             <img src="./assets/images/logo.svg" alt="lethego-logo" />
-            <ul class="space-x-4 flex font-normal text-sm sm:text-md">
+            <ul class="space-x-4 flex font-normal text-xl sm:text-md">
               <li>
-                <a href="#about" class="text-white hover:text-gray-300">About</a>
+                <a
+                  href="#about"
+                  class="text-white font-normal hover:text-gray-300"
+                  >About</a
+                >
               </li>
               <li>
                 <a href="#" class="text-white hover:text-gray-300">Blog</a>
@@ -27,35 +31,35 @@
           </div>
         </div>
       </nav>
-      <header class="pt- 2xl:pt-48 justify-center items-center">
-        <div class="container mx-auto mb-10 text-center">
+      <header class="2xl:pt-48 justify-center items-center">
+        <div class="container mx-auto mb-16 text-center px-2 lg:px-10">
           <h1
-            class="text-white text-4xl lg:text-6xl xl:text-9xl font-normal mb-4 mt-1 md:mt-10 lg:mt-20 2xl:mt-1"
+            class="text-white text-4xl md:text-6xl lg:text-6xl xl:text-9xl 2xl:text-8xl font-medium mb-8 mt-1 md:mt-10 lg:mt-20 2xl:mt-1"
           >
             Digital Literacy made easy
           </h1>
           <p
-            class="text-sm lg:text-lg xl:text-2xl text-secondary mb-8 w-full sm:w-1/3 mx-auto"
+            class="text-sm px-5 lg:text-lg xl:text-2xl 2xl:text-[1.375rem] font-bold text-secondary mb-8 w-full sm:w-2/5 mx-auto"
           >
             Bite-sized digital literacy lessons for on-the-go learning, tailored
             <span class="text-white">for Nigerians!</span>
           </p>
 
           <div
-            class="mx-5 sm:m-0 text-sm sm:text-md text-gray-500 max-w-3xl sm:mx-auto border-dashed border-2 border-gray-400 p-2 sm:p-12 border-opacity-20"
+            class="mx-2 sm:m-0 text-sm sm:text-md text-gray-500 bg-waitlist-dark max-w-3xl font-bold leading-normal sm:mx-auto border-2 rounded-xl border-gray-400 pt-7 px-6 border-opacity-20"
           >
             <div
               class="grid text-sm sm:text-lg grid-cols-2 sm:grid-cols-3 sm:gap-1"
             >
               <input
                 type="text"
-                class="px-2 py-2 bg-custom-dark text-secondary hover:border-none border-dashed border-r-2 border-gray-400 border-opacity-20"
+                class="px-2 py-2 bg-custom-dark text-secondary hover:border-none border-r-2 border-gray-400 border-opacity-20"
                 placeholder="Full name"
               />
 
               <input
                 type="text"
-                class="px-2 py-1 bg-custom-dark text-secondary hover:border-none border-dashed border-r-2 border-gray-400 border-opacity-20"
+                class="px-2 py-1 bg-custom-dark text-secondary hover:border-none border-r-2 border-gray-400 border-opacity-20"
                 placeholder="Email address"
               />
               <input
@@ -66,7 +70,7 @@
             </div>
             <button
               href="#"
-              class="bg-custom-blue hover:bg-blue-500 text-white w-full mt-4 block py-2 px-6 rounded-2xl text-sm sm:text-lg font-semibold"
+              class="bg-custom-blue h-12 hover:bg-blue-500 mb-6 text-white w-full mt-4 block py-2 px-6 rounded-2xl text-sm sm:text-lg font-semibold"
             >
               Join Waitlist
             </button>
@@ -76,12 +80,12 @@
       <div class="bg-white py-12 px-0 sm:px-14">
         <section id="about" class="py-16 mx-0 sm:mx-20">
           <div class="container mx-auto text-center">
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20">
               <div class="p-4 md:text-left">
                 <h3 class="text-3xl sm:text-5xl font-medium mb-5">
                   About Lothego
                 </h3>
-                <p class="text-sm sm:text-lg leading-7 sm:leading-8">
+                <p class="text-sm sm:text-xl leading-7 sm:leading-8">
                   Lothego is an innovative EdTech startup in Nigeria that
                   harnesses research-informed, context-relevant, bite-size
                   engaging content to foster digital literacy through its
@@ -92,7 +96,7 @@
                   digital divide.
                 </p>
 
-                <p class="mt-5 text-sm sm:text-lg leading-7 sm:leading-9">
+                <p class="mt-5 text-sm sm:text-xl leading-7 sm:leading-8">
                   Through our unique "plan-do-reflect" model, learners can go
                   beyond understanding digital concepts and actively practice
                   and internalise them, paving the way for genuine digital
@@ -110,13 +114,16 @@
           </div>
         </section>
 
-        <section class="text-gray-700 py-16 w-full sm:w-1/2 mx-auto">
+        <section class="text-gray-700 py-16 w-full sm:w-8/12 mx-auto">
           <div class="container mx-auto text-center">
-            <h2 class="text-xl sm:text-3xl font-medium mb-5">
+            <h2
+              class="text-3xl sm:text-5xl font-medium mb-20 text-center tracking-wide"
+            >
               Your Digital Literacy Hub: Bite-sized, Engaging, Affordable and
               Contextually Rich.
             </h2>
             <img
+              class="m-auto"
               src="./assets/images/literacy-hub.png"
               alt="literacy-hub-image"
             />
@@ -125,60 +132,69 @@
 
         <section class="text-white py-5 sm:py-16">
           <div class="container mx-auto text-center">
-            <div
-              class="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 gap-4 text-sm sm:text-xl"
-            >
-              <div class="bg-black py-10 px-5 sm:px-10 pb-0">
-                <p class="text-3xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              <div
+                class="md:row-span-2 bg-black p-4 pb-0 flex flex-col items-center justify-center"
+              >
+                <p
+                  class="text-center text-xl sm:text-4xl px-2 py-10 sm:px-3 sm:py-20"
+                >
                   Pocket-Friendly Learning: Optimised for every device from
                   high-end to budget.
                 </p>
-                <div class="relative top-20">
-                  <img
-                    class="mx-auto"
-                    src="./assets/images/optimised-screen.png"
-                    alt="optimised-image"
-                  />
-                </div>
+                <img
+                  src="./assets/images/optimised-screen.png"
+                  alt="Image 1"
+                  class="relative top-5"
+                />
               </div>
-              <div class="bg-black pb-10 px-5 sm:px-10">
-                <div class="relative top-0 mb-5">
-                  <img
-                    class="mx-auto"
-                    src="./assets/images/mastery-screen.png"
-                    alt="course-image"
-                  />
-                </div>
-                <p class="text-3xl">
+
+              <div
+                class="md:row-span-2 bg-black p-4 pt-0 flex flex-col items-center justify-center"
+              >
+                <img
+                  src="./assets/images/mastery-screen.png"
+                  alt="Image 2"
+                  class="relative bottom-0"
+                />
+                <p
+                  class="text-center text-xl sm:text-4xl px-2 py-10 sm:px-3 sm:py-20"
+                >
                   Lite and Efficient: Built to offer a smooth, low-data
                   experience
                 </p>
               </div>
 
-              <div class="bg-black pb-10 px-5 sm:px-10">
-                <div class="relative top-0 mb-5">
-                  <img
-                    class="mx-auto"
-                    src="./assets/images/course-screen.png"
-                    alt="optimised-image"
-                  />
-                </div>
-                <p class="text-3xl">
+              <div
+                class="md:row-span-2 bg-black p-4 pt-0 flex flex-col items-center justify-center"
+              >
+                <img
+                  src="./assets/images/course-screen.png"
+                  alt="Image 1"
+                  class="relative bottom-0 lg:bottom-6 2xl:bottom-2 xl:bottom-1"
+                />
+                <p
+                  class="text-center text-xl sm:text-4xl px-2 py-10 sm:px-3 sm:py-20"
+                >
                   Bite-size Mastery: Direct, focused lessons for swift learning
                 </p>
               </div>
-              <div class="bg-black py-10 px-5 sm:px-10 pb-0">
-                <p class="text-3xl">
+
+              <div
+                class="md:row-span-2 bg-black p-4 flex flex-col items-center justify-center"
+              >
+                <p
+                  class="text-center text-xl sm:text-4xl px-2 py-10 sm:px-3 sm:py-20"
+                >
                   Relevance meets Rigour: Research-informed Tailored content for
                   impactful learning outcomes.
                 </p>
-                <div class="sm:relative md:relative pt-5 top-3 md:top-0">
-                  <img
-                    class="mx-auto"
-                    src="./assets/images/completed-screen.png"
-                    alt="optimised-image"
-                  />
-                </div>
+
+                <img
+                  src="./assets/images/completed-screen.png"
+                  alt="Image 2"
+                  class="relative top-4"
+                />
               </div>
             </div>
           </div>
@@ -192,28 +208,28 @@
                 alt="about-lethego-image"
               />
 
-              <div class="bg-custom-dark p-3 sm:p-5">
+              <div class="bg-custom-dark p-2">
                 <p
-                  class="text-2xl sm:text-md p-1 sm:p-2 lg:p-2 xl:p-20 text-center sm:text-left leading-9"
+                  class="text-2xl sm:text-3xl lg:text-2xl p-3 lg:p-5 sm:p-2 xl:pt-36 xl:pb-10 xl:px-24 text-center sm:text-left leading-9"
                 >
                   Lothego is currently exclusive to select organisations.
                   Register your interest now to be among the first to experience
                   the future of digital literacy learning when we expand access
                 </p>
                 <div
-                  class="text-base text-secondary max-w-xl mx-auto border-dashed border-2 border-gray-400 p-5 border-opacity-20"
+                  class="text-base bg-waitlist-dark rounded-xl text-secondary max-w-xl mx-auto border-2 border-gray-400 p-5 border-opacity-20"
                 >
                   <div
                     class="grid text-sm sm:text-lg grid-cols-2 sm:grid-cols-3 gap-1"
                   >
                     <input
                       type="text"
-                      class="px-2 text-sm py-1 bg-custom-dark hover:border-none border-dashed border-r-2 border-gray-400 border-opacity-20"
+                      class="px-2 text-sm py-1 bg-custom-dark hover:border-none border-r-2 border-gray-400 border-opacity-20"
                       placeholder="Full name"
                     />
                     <input
                       type="text"
-                      class="text-sm px-2 py-1 bg-custom-dark hover:border-none border-dashed border-r-2 border-gray-400 border-opacity-20"
+                      class="text-sm px-2 py-1 bg-custom-dark hover:border-none border-r-2 border-gray-400 border-opacity-20"
                       placeholder="Email address"
                     />
                     <input
@@ -230,12 +246,15 @@
                 </div>
               </div>
             </div>
-            <p class="text-sm sm:text-xl text-black pt-10 sm:pt-20 pb-6">
+            <p class="text-sm sm:text-xl text-black pt-10 sm:pt-20 pb-10">
               Lothego 2023
             </p>
             <div
               class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 justify-items-center w-1/2 sm:w-1/3 mx-auto"
             >
+              <a href="#" class="w-1/2 sm:w-1/3">
+                <img src="./assets/images/linkedIn.svg" />
+              </a>
               <a href="#" class="w-1/2 sm:w-1/3">
                 <img src="./assets/images/facebook.svg" />
               </a>
@@ -244,9 +263,6 @@
               </a>
               <a href="#" class="w-1/2 sm:w-1/3">
                 <img src="./assets/images/twitter.svg" />
-              </a>
-              <a href="#" class="w-1/2 sm:w-1/3">
-                <img src="./assets/images/youtube.svg" />
               </a>
             </div>
           </div>

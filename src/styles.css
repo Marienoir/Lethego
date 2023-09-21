@@ -11,13 +11,21 @@ body {
 }
 
 .bg-custom-blue {
-  background-color: #00adef; 
+  background-color: #00adef;
 }
 
 .bg-custom-dark {
   background-color: #101010;
 }
 
-.secondary {
-  color: #8D8BA1;
+.bg-waitlist-dark {
+  background-color: rgba(20, 20, 21, 0.7);
+}
+
+.text-secondary {
+  color: #8d8ba1;
+}
+
+.w-63  {
+  width: "63%";
 }

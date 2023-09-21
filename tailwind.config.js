@@ -12,6 +12,10 @@ module.exports = {
         secondary: "#8D8BA1",
         "custom-dark": "#101010",
         "custom-blue": "#00adef",
+        "waitlist-dark": "rgba(20, 20, 21, 0.70)"
+      },
+      width: {
+        '63': '63%',
       },
     },
     fontFamily: {

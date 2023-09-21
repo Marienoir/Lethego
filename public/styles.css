@@ -550,6 +550,14 @@ body {
   background-color: #101010;
 }
 
+.bg-waitlist-dark {
+  background-color: rgba(20, 20, 21, 0.7);
+}
+
 .text-secondary {
-  color: #8D8BA1;
+  color: #8d8ba1;
+}
+
+.w-63  {
+  width: "63%";
 }
